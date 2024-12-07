@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="website icon" href="imgs/photosite.png">
+</head>
+<body class="w-full h-[100vh] flex flex col justify-center items-center font-mono">
+    <section>
+        <div class="shadow-2xl rounded w-96 h-96">
+            <div>
+                <img src="imgs/photomusic.jpg" alt="Photo Music" class="rounded w-48 h-48 relative left-24 bottom-8 shadow-2xl">
+            </div>
+            <div>
+                <audio src="audios/sound.mp3" id="sound"></audio>
+                <button id="btnmusic"><img src="imgs/play.png" class="w-16 relative left-[157px] top-15" id="playorstop"></button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
